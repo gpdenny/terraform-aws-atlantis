@@ -10,6 +10,7 @@ output "url" {
 output "alb" {
   description = "ALB created and all of its associated outputs"
   value       = module.alb
+  sensitive   = true
 }
 
 ################################################################################
