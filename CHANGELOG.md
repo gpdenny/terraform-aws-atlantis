@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.1.0](https://github.com/terraform-aws-modules/terraform-aws-atlantis/compare/v5.0.2...v5.1.0) (2026-01-08)
+
+### Features
+
+* Add provider meta user-agent ([#433](https://github.com/terraform-aws-modules/terraform-aws-atlantis/issues/433)) ([c256bc1](https://github.com/terraform-aws-modules/terraform-aws-atlantis/commit/c256bc1549cf79255981a611c3a917d0d497fdbc))
+
+## [5.0.2](https://github.com/terraform-aws-modules/terraform-aws-atlantis/compare/v5.0.1...v5.0.2) (2025-11-12)
+
+### Bug Fixes
+
+* Update lookup logic for Atlantis URL due to variable optional attributes ([#428](https://github.com/terraform-aws-modules/terraform-aws-atlantis/issues/428)) ([fd00ee1](https://github.com/terraform-aws-modules/terraform-aws-atlantis/commit/fd00ee10329ce21223951ea035536d3bfb190afb))
+
+## [5.0.1](https://github.com/terraform-aws-modules/terraform-aws-atlantis/compare/v5.0.0...v5.0.1) (2025-11-11)
+
+### Bug Fixes
+
+* Add missing `fqdn` attribute from the `atlantis` variable ([#427](https://github.com/terraform-aws-modules/terraform-aws-atlantis/issues/427)) ([192da24](https://github.com/terraform-aws-modules/terraform-aws-atlantis/commit/192da2497c5113f093f66e992586da77165316ed))
+
+## [5.0.0](https://github.com/terraform-aws-modules/terraform-aws-atlantis/compare/v4.4.1...v5.0.0) (2025-11-10)
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade Terraform and AWS min required providers to 1.10 and `6.19` respectively (#426)
+
+### Features
+
+* Upgrade Terraform and AWS min required providers to 1.10 and `6.19` respectively ([#426](https://github.com/terraform-aws-modules/terraform-aws-atlantis/issues/426)) ([2b456f8](https://github.com/terraform-aws-modules/terraform-aws-atlantis/commit/2b456f884bedfb0b326a8c88fa3ac0354f33cf98))
+
+## [4.4.1](https://github.com/terraform-aws-modules/terraform-aws-atlantis/compare/v4.4.0...v4.4.1) (2025-10-21)
+
+### Bug Fixes
+
+* Update CI workflow versions to latest ([#407](https://github.com/terraform-aws-modules/terraform-aws-atlantis/issues/407)) ([0ee2a20](https://github.com/terraform-aws-modules/terraform-aws-atlantis/commit/0ee2a20432d43d40c0a0921bca5a6131e531d562))
+* Update CI workflow versions to latest ([#423](https://github.com/terraform-aws-modules/terraform-aws-atlantis/issues/423)) ([864eaca](https://github.com/terraform-aws-modules/terraform-aws-atlantis/commit/864eaca26591fa9e9eaf2c5f116134e1baa1c380))
+
 ## [4.4.0](https://github.com/terraform-aws-modules/terraform-aws-atlantis/compare/v4.3.0...v4.4.0) (2024-07-05)
 
 
