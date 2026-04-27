@@ -442,6 +442,7 @@ variable "service" {
     health_check_grace_period_seconds = optional(number)
     launch_type                       = optional(string, "FARGATE")
     load_balancer                     = optional(any, {})
+    enable_execute_command            = optional(bool, false)
     name                              = optional(string)
     assign_public_ip                  = optional(bool, false)
     security_group_ids                = optional(list(string), [])
